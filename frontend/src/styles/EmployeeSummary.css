@@ -1,0 +1,47 @@
+.employee-summary{
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:18px;
+
+    padding:25px;
+
+    color:white;
+
+}
+
+.employee-summary h2{
+
+    margin-bottom:25px;
+
+    font-size:22px;
+
+}
+
+.summary-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:15px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.15);
+
+}
+
+.summary-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.summary-item strong{
+
+    font-size:20px;
+
+}

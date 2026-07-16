@@ -1,0 +1,51 @@
+.dashboard-table{
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:18px;
+
+    padding:25px;
+
+    color:white;
+
+}
+
+.dashboard-table h2{
+
+    margin-bottom:20px;
+
+    font-size:22px;
+
+}
+
+.dashboard-table table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.dashboard-table th{
+
+    text-align:left;
+
+    padding:15px;
+
+    background:rgba(255,255,255,.18);
+
+}
+
+.dashboard-table td{
+
+    padding:15px;
+
+    border-bottom:1px solid rgba(255,255,255,.15);
+
+}

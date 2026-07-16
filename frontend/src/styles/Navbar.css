@@ -1,0 +1,51 @@
+.navbar{
+
+    height:80px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 30px;
+
+    color:white;
+
+    border-radius:18px;
+
+}
+
+.navbar-title{
+
+    font-size:24px;
+
+    font-weight:600;
+
+}
+
+.navbar-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.nav-icon{
+
+    font-size:22px;
+
+    cursor:pointer;
+
+}
+
+.profile-icon{
+
+    font-size:34px;
+
+    cursor:pointer;
+
+}

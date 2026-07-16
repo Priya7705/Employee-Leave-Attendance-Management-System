@@ -1,0 +1,96 @@
+@import "./Theme.css";
+
+/* ===============================
+   Global Reset
+================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: var(--gradient);
+    min-height: 100vh;
+    overflow-x: hidden;
+    color: var(--text-dark);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+/* ===============================
+   Main Layout
+================================== */
+
+.app-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ===============================
+   Page Area
+================================== */
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+.page-content {
+    margin-top: 90px;
+}
+
+/* ===============================
+   Glass Effect
+================================== */
+
+.glass {
+    background: var(--glass);
+    backdrop-filter: var(--blur);
+    -webkit-backdrop-filter: var(--blur);
+
+    border: 1px solid var(--glass-border);
+
+    border-radius: var(--card-radius);
+
+    box-shadow: var(--card-shadow);
+}
+
+/* ===============================
+   Titles
+================================== */
+
+.page-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* ===============================
+   Cards
+================================== */
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: var(--card-shadow);
+}

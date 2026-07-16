@@ -1,0 +1,77 @@
+.employee-form{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    background:var(--glass);
+
+    backdrop-filter:var(--blur);
+    -webkit-backdrop-filter:var(--blur);
+
+    border:1px solid var(--glass-border);
+
+    box-shadow:var(--card-shadow);
+
+    margin-bottom:25px;
+
+}
+
+.employee-form input,
+.employee-form select{
+
+    height:48px;
+
+    padding:0 15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:rgba(255,255,255,.85);
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+.employee-form input:focus{
+
+    border:2px solid var(--primary);
+
+}
+
+.employee-form button{
+
+    grid-column:1/3;
+
+    height:50px;
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.employee-form button:hover{
+
+    background:var(--primary-dark);
+
+}

@@ -1,0 +1,16 @@
+Project: Employee Leave & Attendance Management System (ELAMS)
+Project folders created
+VS Code configured
+Virtual Environment created
+Virtual Environment activated
+Required packages installed
+Professional Folder Structure Created
+FastAPI server running
+First REST API created
+Swagger documentation working
+FastAPI Running
+Swagger Working
+ Database Created
+ SQLAlchemy Connected
+ Engine Created
+ Session Created

@@ -1,0 +1,162 @@
+.payroll-container{
+
+    background:#ffffff;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
+
+}
+
+.payroll-title{
+
+    margin-bottom:25px;
+
+    color:#1f2937;
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.payroll-search{
+
+    width:360px;
+
+    padding:12px 18px;
+
+    border-radius:10px;
+
+    border:1px solid #d1d5db;
+
+    margin-bottom:30px;
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+.payroll-search:focus{
+
+    border:1px solid #2563eb;
+
+}
+
+.payroll-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:10px;
+
+}
+
+.payroll-table th{
+
+    background:#2563eb;
+    color:white;
+    padding:18px;
+
+    text-align:center;
+
+    font-size:15px;
+
+}
+
+.payroll-table td{
+
+    padding:20px;
+
+    text-align:center;
+
+    border-bottom:1px solid #e5e7eb;
+
+    font-size:15px;
+
+}
+
+.payroll-table tbody tr{
+
+    height:70px;
+    background:white;
+    transition:.25s;
+
+}
+
+.payroll-table tbody tr:hover{
+
+    background:#eef4ff;
+
+}
+
+.status-paid{
+
+    background:#dcfce7;
+
+    color:#15803d;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-weight:600;
+
+}
+
+.status-pending{
+
+    background:#fef3c7;
+
+    color:#b45309;
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-weight:600;
+
+}
+
+.view-btn{
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:9px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+
+.view-btn:hover{
+
+    background:#1d4ed8;
+
+}
+.status-paid,
+.status-pending{
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.status-paid:hover,
+.status-pending:hover{
+
+    transform:scale(1.08);
+
+}
